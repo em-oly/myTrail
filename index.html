@@ -27,7 +27,7 @@
 
   /* Set up the initial map center and zoom level */
   var map = L.map('map', {
-    center: [41.77, -72.69], // EDIT coordinates to re-center map
+    center: [33.9813723,-117.7506153], // EDIT coordinates to re-center map
     zoom: 12,  // EDIT from 1 (zoomed out) to 18 (zoomed in)
     scrollWheelZoom: false,
     tap: false
@@ -42,8 +42,8 @@
   }).addTo(map);
 
   /* Display a point marker with pop-up text */
-  L.marker([41.77, -72.69]).addTo(map) // EDIT marker coordinates
-  .bindPopup("Hike #1 : abcd <br> Hike #2 : abcd <br> Hike #3 : abcd"); // EDIT pop-up text message
+  L.marker([33.9813723,-117.7506153]).addTo(map) // EDIT marker coordinates
+  .bindPopup("Hike #1 : Grand Avenue Trail <br> Hike #2 : Eucalyptus Trail <br> Hike #3 : Helen McCoy Loop"); // EDIT pop-up text message
 
   </script>
 </body>

@@ -1,0 +1,34 @@
+.sidenav {
+	height: 100%;
+	width: 200px; 
+	position: relative;
+	float: left;
+	z-index: 1; /* keeps navigation bar on top */
+	top: 0;
+	left: 0;
+	background: linear-gradient(to left, #606c88 , #3f4c6b);
+	overflow-x: hidden;
+	padding-top: 40px;
+	transition: 0.5s;
+	box-shadow: 0 2px 2px 2px rgba(20, 20, 20, 0.3);
+}
+
+/* controls links */
+.sidenav a {
+	padding: 8px 8px 8px 32px;
+	text-decoration: none;
+	font-size: 25px;
+	color: #818181;
+	display: block;
+	transition: 0.3s;
+}
+
+.sidenav a:hover, .offcanvas a:focus {
+	color: #f1f1f1;
+}
+
+.sidenav div {
+	margin-right: auto;
+	margin-left: 25px;
+	padding-top: 10px;
+}

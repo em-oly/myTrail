@@ -1,0 +1,3 @@
+var states = {
+	map: 'bar'
+}

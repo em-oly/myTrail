@@ -1,0 +1,51 @@
+<html>
+    <head>
+        <script src="https://www.gstatic.com/firebasejs/3.6.1/firebase.js"></script>
+        <script>
+            // Initialize Firebase
+            var config = {
+                apiKey: "AIzaSyBgNBRlbGzdnTxlVxAy47tzTz853x-HPrQ",
+                authDomain: "markers-f1c11.firebaseapp.com",
+                databaseURL: "https://markers-f1c11.firebaseio.com",
+                projectId: "markers-f1c11",
+                storageBucket: "markers-f1c11.appspot.com",
+                messagingSenderId: "376951882949",
+                appId: "1:376951882949:web:05af2e278881f0728a1cac"
+            };
+            firebase.initializeApp(config);
+        </script>
+        <link rel="stylesheet" type="text/css" href="css/sidenav.css">
+        <link rel="stylesheet" type="text/css" href="css/searchbar.css">
+        <link rel="stylesheet" type="text/css" href="css/markerform.css">
+        <script type="text/javascript" src="http://code.jquery.com/jquery-2.1.3.js"></script>
+
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD65EomnV0iJCYR7lqE3ivhGKxhPqCqxvs&libraries=places"></script>
+        <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+        <script src="js/stuff.js"></script>
+        
+        <style type="text/css">
+            html { height:100% }
+            body { height:100%; margin:0; padding:0; overflow: hidden; }
+            #map-canvas { height:100%; position: relative;}
+        </style>
+
+    
+    </head>    
+    <body>
+        <div id="sideNavigation" class="sidenav">
+            <a href="#">Google</a>
+            <input id="searchMap" class="controls" type="text" placeholder="Search Box">       
+            <input id="eventName" class="box" type="text" placeholder="Event Name">       
+            <input id='eventDescription' class="box" type="text" placeholder="Description">
+            <br>
+            <br>
+            <a href="#">Weather</a>
+            <input id="weather" class="box" type="text" placeholder="Zipcode">  
+            <div id="status">
+            </div>
+        </div>
+        <div id="map-canvas">
+
+    </body>
+
+</html>
